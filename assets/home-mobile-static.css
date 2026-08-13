@@ -1,0 +1,72 @@
+/* Главная на телефоне: спокойный статичный выбор заведений. */
+@media (max-width: 760px), (hover: none) and (pointer: coarse) {
+  .brand-card,
+  .brand-card::before,
+  .brand-card::after,
+  .brand-card__shade,
+  .brand-card__video {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .brand-card,
+  .brand-card:active,
+  .brand-card:focus,
+  .brand-card:hover {
+    filter: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  .brand-card__shade,
+  .brand-card::before,
+  .brand-card::after {
+    opacity: 0 !important;
+    background: transparent !important;
+  }
+
+  .brand-card__video {
+    filter: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .split-card,
+  .split-card::before,
+  .split-card::after,
+  .split-card video,
+  .split-card img {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .split-card,
+  .split-card:active,
+  .split-card:focus,
+  .split-card:hover {
+    filter: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  .split-card::before,
+  .split-card::after {
+    opacity: 0 !important;
+    background: transparent !important;
+  }
+
+  .split-card video {
+    display: none !important;
+  }
+
+  .split-card__image,
+  .split-card__image img,
+  .split-card__media,
+  .split-card__media img {
+    filter: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
